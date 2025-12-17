@@ -100,9 +100,7 @@ export const IndexUI = ({ logic }: IndexUIProps) => {
                 : 'Featured Products'
               }
             </h2>
-            <p className="text-muted-foreground">
-              Hand-poured candles and premium diffusers
-            </p>
+            <p style={{ letterSpacing: '0px' }} className="text-muted-foreground">Hand-poured candles and premium diffusers!</p>
           </div>
           
           {loading ? (
